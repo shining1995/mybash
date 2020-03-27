@@ -23,5 +23,6 @@ sudo yum install ctags  # for deoplete.vim
 pip install --user flake8
 pip install --user isort
 pip install --user yapf
+pip installl jedi
 
 
