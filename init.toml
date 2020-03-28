@@ -11,6 +11,7 @@
 # set spacevim theme. by default colorscheme layer is not loaded,
 # if you want to use more colorscheme, please load the colorscheme
 # layer
+vim_help_language = "cn"
 colorscheme = "SpaceVim"
 colorscheme_bg = "dark"
 # Disable guicolors in basic mode, many terminal do not support 24bit
@@ -39,6 +40,7 @@ default_height = 30
 [[layers]]
 name = "lang#python"
 enable_typeinfo = true
+format_on_save = 1
 
 
 [[layers]]
@@ -54,9 +56,11 @@ name = "tagbar"
 name = "tools"
 
 
-# [[layers]]
-# name = "lsp"
-# filetypes=['python']
+[[layers]]
+name = "lsp"
+filetypes=['python']
+# default_position = "top"
+# default_height = 30
 
 [[layers]]
 name = "ui"
@@ -64,5 +68,21 @@ name = "ui"
 [[layers]]
 name = "debug"
   
+
 [[layers]]
-name = "lang#elm"
+name = "lang#dockerfile"
+
+[[layers]]
+name = "lang#markdown"
+
+[[layers]]
+name = "cscope"
+
+# [[layers]]
+# name = "VersionControl"
+
+# [[layers]]
+# name = "git"
+
+[[layers]]
+name = "chinese"
