@@ -25,4 +25,8 @@ pip install --user isort
 pip install --user yapf
 pip installl jedi
 
-
+pip install 'python-language-server[all]'
+git clone https://github.com/palantir/python-language-server.git
+cd python-language-server
+pip install -U setuptools
+pip install .[test] -i https://pypi.douban.com/simple --trusted-host=pypi.douban.com && pytest
