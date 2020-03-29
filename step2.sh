@@ -18,12 +18,12 @@ pyenv local 3.6.5
 sudo rm -f /usr/bin/python3
 sudo ln -s ~/.pyenv/shims/python /usr/bin/python3
 pip3 install --user pynvim
-sudo yum install ctags  # for deoplete.vim
+sudo yum install -y ctags  # for deoplete.vim
 
 pip install --user flake8
 pip install --user isort
 pip install --user yapf
-pip installl jedi
+pip install jedi
 
 pip install 'python-language-server[all]'
 git clone https://github.com/palantir/python-language-server.git
@@ -34,4 +34,4 @@ pip install .[test] -i https://pypi.douban.com/simple --trusted-host=pypi.douban
 pip install autoflake
 
 mkdir ~/.SpaceVim.d/
-cp ./init.toml ~/.SpaceVim.d/
+cp ../init.toml ~/.SpaceVim.d/
