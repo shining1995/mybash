@@ -34,4 +34,4 @@ pip install .[test] -i https://pypi.douban.com/simple --trusted-host=pypi.douban
 pip install autoflake
 
 mkdir ~/.SpaceVim.d/
-cp ./init.toml ~/.SpaceVim.d/
+cp ../init.toml ~/.SpaceVim.d/
