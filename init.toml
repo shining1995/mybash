@@ -53,6 +53,7 @@ name = "format"
 
 [[layers]]
 name = "checkers"
+show_cursor_error = false
 
 [[layers]]
 name = "tagbar"
